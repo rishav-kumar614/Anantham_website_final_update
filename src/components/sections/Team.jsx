@@ -588,7 +588,7 @@ export default function Team() {
                                     </div>
 
                                     {/* Name & Company */}
-                                    <div className="col-span-4">
+                                    <div className="col-span-5 md:col-span-6">
                                         <h4 className="font-serif text-xl md:text-2xl text-white group-hover:text-[#C9A961] transition-colors duration-300 font-light">
                                             {consultant.name}
                                         </h4>
@@ -598,17 +598,10 @@ export default function Team() {
                                     </div>
 
                                     {/* Role Badge */}
-                                    <div className="col-span-3">
+                                    <div className="col-span-4 md:col-span-3 flex justify-start md:justify-end">
                                         <span className="inline-block px-3 py-1 border border-[#C9A961]/30 group-hover:border-[#C9A961] text-[#C9A961] text-[10px] uppercase tracking-widest font-bold transition-colors duration-300">
                                             {consultant.role}
                                         </span>
-                                    </div>
-
-                                    {/* Description */}
-                                    <div className="col-span-2">
-                                        <p className="text-white/40 text-xs font-light leading-relaxed">
-                                            {consultant.desc}
-                                        </p>
                                     </div>
                                 </motion.div>
                             ))}
