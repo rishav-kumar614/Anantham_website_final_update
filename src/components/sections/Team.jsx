@@ -12,9 +12,9 @@ import goldUserAvatar from '../../assets/images/founders/gold_user_avatar.png';
 import corporateHqImg from '../../assets/images/projects/corporate_hq.png';
 
 // Consultant Logos
-import sandeepKheraLogo from '../../assets/images/projects/sandeep_khera_logo.png';
-import maansiSaxenaLogo from '../../assets/images/projects/maansi_saxena_logo.png';
-import somnathBeheraLogo from '../../assets/images/projects/somnath_behera_logo.png';
+import sandeepKheraLogo from '../../assets/images/projects/sandeep_khera_new_logo.png';
+import maansiSaxenaLogo from '../../assets/images/projects/maansi_saxena_new_logo.png';
+import somnathBeheraLogo from '../../assets/images/projects/somnath_behera_new_logo.png';
 
 // Project Entities (Presentation Page 8)
 import birdviewLogo from '../../assets/images/partners/birdview_user_logo.png';
@@ -573,15 +573,15 @@ export default function Team() {
                                     {/* Logo */}
                                     <div className="col-span-2">
                                         {consultant.logo ? (
-                                            <div className="w-14 h-14 overflow-hidden bg-white/5 border border-white/10 group-hover:border-[#C9A961]/40 transition-colors rounded p-1.5 flex items-center justify-center">
+                                            <div className="w-16 h-14 sm:w-16 sm:h-16 overflow-hidden bg-white border border-white/20 group-hover:border-[#C9A961] transition-all duration-300 rounded-xl p-2 flex items-center justify-center shadow-md">
                                                 <img
                                                     src={consultant.logo}
                                                     alt={consultant.name}
-                                                    className="w-full h-full object-contain"
+                                                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                                                 />
                                             </div>
                                         ) : (
-                                            <div className="w-14 h-14 bg-[#C9A961]/10 border border-[#C9A961]/30 rounded flex items-center justify-center text-[#C9A961] font-serif text-lg font-bold">
+                                            <div className="w-16 h-14 sm:w-16 sm:h-16 bg-[#C9A961]/10 border border-[#C9A961]/30 rounded-xl flex items-center justify-center text-[#C9A961] font-serif text-lg font-bold">
                                                 {consultant.name.charAt(0)}
                                             </div>
                                         )}
