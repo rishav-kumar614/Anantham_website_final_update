@@ -118,8 +118,8 @@ export default function Header() {
                             </div>
 
                             {/* Menu Items */}
-                            <div className="flex-grow flex flex-col justify-center px-6 sm:px-8 md:px-10 py-5 overflow-y-auto">
-                                <nav className="flex flex-col space-y-2">
+                            <div className="flex-grow flex flex-col px-6 sm:px-8 md:px-10 py-4 overflow-y-auto">
+                                <nav className="flex flex-col space-y-2 my-auto pt-1 pb-1">
                                     {[
                                         { label: 'Our Legacy', path: '/#legacy-wall' },
                                         { label: 'Leadership', path: '/#founders' },
@@ -160,7 +160,7 @@ export default function Header() {
                                                         handleNavClick(e, item.path);
                                                     }
                                                 }}
-                                                className="group relative flex items-center justify-between px-5 py-3 bg-[#F6F4F0] hover:bg-[#F0EDE8] border border-[#E5E2DD] hover:border-[#C9A961]/30 rounded-xl transition-all duration-300 overflow-hidden"
+                                                className="group relative flex items-center justify-between px-4 sm:px-5 py-2.5 sm:py-3 bg-[#F6F4F0] hover:bg-[#F0EDE8] border border-[#E5E2DD] hover:border-[#C9A961]/30 rounded-xl transition-all duration-300 overflow-hidden"
                                             >
                                                 {/* Hover gradient effect */}
                                                 <div className="absolute inset-0 bg-gradient-to-r from-[#C9A961]/0 via-[#C9A961]/5 to-[#C9A961]/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
