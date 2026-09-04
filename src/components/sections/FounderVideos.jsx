@@ -148,10 +148,10 @@ export default function FounderVideos() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.8, delay: idx * 0.2 }}
-                                className="group relative cursor-pointer"
+                                className="group relative cursor-pointer p-2 md:p-2.5 rounded-xl bg-white/80 border border-[#C9A961]/40 hover:border-[#C9A961] transition-all duration-500 shadow-[0_8px_25px_rgba(0,0,0,0.05)]"
                                 onClick={() => openVideo(video)}
                             >
-                                <div className="relative w-full aspect-video bg-[#E5E2DD] overflow-hidden rounded border border-[#E5E2DD]">
+                                <div className="relative w-full aspect-video bg-[#E5E2DD] overflow-hidden rounded-lg border border-black/5">
                                     {/* Video Poster Thumbnail */}
                                     <img
                                         src={video.thumbnail}
