@@ -118,15 +118,16 @@ export default function Header() {
                             </div>
 
                             {/* Menu Items */}
-                            <div className="flex-grow flex flex-col justify-center px-8 md:px-10 py-6 overflow-y-auto">
-                                <nav className="flex flex-col space-y-2.5">
+                            <div className="flex-grow flex flex-col justify-center px-6 sm:px-8 md:px-10 py-5 overflow-y-auto">
+                                <nav className="flex flex-col space-y-2">
                                     {[
+                                        { label: 'Our Legacy', path: '/#legacy-wall' },
+                                        { label: 'Leadership', path: '/#founders' },
+                                        { label: 'Our Journey', path: '/#story' },
+                                        { label: 'Legacy Portfolio', path: '/#legacy-developments' },
+                                        { label: 'Key Pillars', path: '/#key-pillars' },
                                         { label: 'Anantham 88', path: '/#anantham-88' },
                                         { label: 'Why Sonipat', path: '/#why-sonipat' },
-                                        { label: 'Key Pillars', path: '/#key-pillars' },
-                                        { label: 'Legacy Portfolio', path: '/#legacy-developments' },
-                                        { label: 'Sales Gallery', path: '/#sales-gallery' },
-                                        { label: 'Leadership', path: '/#founders' },
                                         { label: 'Philosophy', path: '/philosophy' },
                                         { label: 'Contact', path: '/#contact' }
                                     ].map((item, idx) => (
@@ -135,8 +136,8 @@ export default function Header() {
                                             initial={{ x: 30, opacity: 0 }}
                                             animate={{ x: 0, opacity: 1 }}
                                             transition={{
-                                                delay: 0.12 + (idx * 0.04),
-                                                duration: 0.5,
+                                                delay: 0.1 + (idx * 0.03),
+                                                duration: 0.4,
                                                 type: 'spring',
                                                 stiffness: 120
                                             }}
@@ -159,7 +160,7 @@ export default function Header() {
                                                         handleNavClick(e, item.path);
                                                     }
                                                 }}
-                                                className="group relative flex items-center justify-between px-5 py-3.5 bg-[#F6F4F0] hover:bg-[#F0EDE8] border border-[#E5E2DD] hover:border-[#C9A961]/30 rounded-xl transition-all duration-300 overflow-hidden"
+                                                className="group relative flex items-center justify-between px-5 py-3 bg-[#F6F4F0] hover:bg-[#F0EDE8] border border-[#E5E2DD] hover:border-[#C9A961]/30 rounded-xl transition-all duration-300 overflow-hidden"
                                             >
                                                 {/* Hover gradient effect */}
                                                 <div className="absolute inset-0 bg-gradient-to-r from-[#C9A961]/0 via-[#C9A961]/5 to-[#C9A961]/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

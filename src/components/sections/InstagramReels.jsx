@@ -17,13 +17,16 @@ export default function InstagramReels() {
 
   // Instagram reel URLs
   const reels = [
-    "https://www.instagram.com/reel/DV3Zj3lktF4/",
-    "https://www.instagram.com/reel/DVXmV4Tkgvc/",
-    "https://www.instagram.com/reel/DVVM4FYCIOu/",
-    "https://www.instagram.com/reel/DVBNzJUEswr/",
-    "https://www.instagram.com/reel/DUnLB_uEk6c/",
-    "https://www.instagram.com/reel/DUVD77yEX3N/",
-    "https://www.instagram.com/reel/DUDXQpUkv2e/",
+    "https://www.instagram.com/reel/Dc2UZP-Emwk/",
+    "https://www.instagram.com/reel/DckJt7gSWQd/",
+    "https://www.instagram.com/reel/DcguSPPytsw/",
+    "https://www.instagram.com/reel/DcXof8YBKJ0/",
+    "https://www.instagram.com/reel/DcVr098y3HM/",
+    "https://www.instagram.com/reel/DcS3PO2R1RG/",
+    "https://www.instagram.com/reel/DcQJ_LNR1Mq/",
+    "https://www.instagram.com/reel/DcNp85YRiZ2/",
+    "https://www.instagram.com/reel/DZW1YWqxsbQ/",
+    "https://www.instagram.com/reel/DZHq-i0ytgk/",
   ];
 
   // Load Instagram embed script
